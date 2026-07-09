@@ -30,9 +30,27 @@ body {
 }
 
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   padding: 2rem;
   background: linear-gradient(135deg, #0f2f62, #164d92);
   color: #ffffff;
+}
+
+.hero-copy {
+  flex: 1;
+}
+
+.hero-meme {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 2px solid rgb(255 255 255 / 0.25);
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
 }
 
 .eyebrow {
